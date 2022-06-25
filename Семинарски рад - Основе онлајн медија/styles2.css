@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    height: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #87CEEB;
+    z-index: 2;
+}
+.container{
+    display: flex;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+}
+.middle{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation{
+	width: 1800px;
+	height: 70px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.navigation-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin:0 auto;
+	
+}
+
+
+.navigation button{
+	height: 70px;
+    width: 600px;
+    background-color: rgb(128, 0, 0);
+    color:rgb(255, 255, 255);
+	font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0,8s;
+	
+	
+}
+.navigation button:hover{
+    background-color:rgb(28, 77, 135) ;
+}
+
+.image2{
+    background-image: url(images/hala.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.image2 h5{
+    margin: 0 auto;
+    color:rgb(220, 220, 220);
+    font-size: 70px;
+	text-shadow: 5px 5px black;
+    
+} 
+
+
+.hero{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 400px;
+
+}
+.hero button{
+    margin-top: 30px;
+    padding:10px 30px;
+    background-color: rgb(128, 0, 0);
+    color:rgb(255, 255, 255);
+	font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0,8s;
+}
+.hero button:hover{
+    background-color:rgb(28, 77, 135) ;
+}
+.container-mapa{
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+    
+}
+
+.levo img{
+    height: 32px;
+    width: 32px;
+}
+.left,.middle,.right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    height:200px;
+
+}
+.levo{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.levo-flex{
+    display: flex;
+    gap: 20px;
+}
+.description p:first-of-type
+{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+} 
+
+.input-box{
+    width: 100%;
+    height: 100%;
+}
+.sredina{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+.sredina input{
+    font-family: inherit;
+    padding: 10px 20px;
+}
+.textarea{
+    height: 100%;
+    display: block;
+    height: 75%;
+    margin-bottom: 10px;
+    font-family: inherit;
+    padding: 10px 20px;
+}
+.form-control{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+#submit-btn{
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background:rgb(128, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#submit-btn:hover{
+    background:rgb(28, 77, 135);
+}
+
+.footer{
+	margin-top: none;
+	text-align: center;
+    font-size: 40px;
+	padding-bottom: 50px;
+}
+
+
+.form-control.success input,
+.form-control.success textarea {
+	border:2px solid #2ecc71;
+}
+
+.form-control.error input,
+.form-control.error textarea {
+	border:2px solid #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 11px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom:-25px;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}

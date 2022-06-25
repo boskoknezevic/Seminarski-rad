@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    height: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #87CEEB;
+    z-index: 2;
+}
+.container{
+    display: flex;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+}
+.middle{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation{
+	width: 1800px;
+	height: 70px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.navigation-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin:0 auto;
+	
+}
+
+
+.navigation button{
+	height: 70px;
+    width: 600px;
+    background-color: rgb(128, 0, 0);
+    color:rgb(255, 255, 255);
+	font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0,8s;
+	
+	
+}
+.navigation button:hover{
+    background-color:rgb(28, 77, 135) ;
+}
+
+
+.image1{
+    background-image: url(images/kristalna_dvorana.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.image1 p{
+    margin: 0 auto;
+    color:rgb(220, 220, 220);
+    font-size: 30px;
+	text-shadow: 5px 5px black;
+    
+} 
+.image1 h1{
+    color: rgb(220, 220, 220);
+    margin-bottom: 10px;
+    font-size: 70px;
+	text-shadow: 5px 5px black;
+}
+
+.hero{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 400px;
+
+}
+.hero button{
+    margin-top: 30px;
+    padding:10px 30px;
+    background-color: rgb(128, 0, 0);
+    color:rgb(255, 255, 255);
+	font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0,8s;
+}
+.hero button:hover{
+    background-color:rgb(28, 77, 135) ;
+}
+
+.galerija{
+    margin-top:80px;
+    text-align: center;
+}
+.slider{
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+	padding-bottom: 300px;
+}
+.slide{
+    position: absolute;
+    display: flex;
+    flex-direction:row;
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+    
+    transition: all 0.8s;
+	padding-bottom: 100px;
+	
+    
+}
+.slide-flex{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    color: #777777;
+	
+}
+
+.slider-btn{
+    background-color:rgb(128, 0, 0);
+    position: absolute;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    top: 50%;
+}
+.slider-left{
+    left: 10px;
+}
+.slider-right{
+    right: 10px;
+}
+.slider-btn:hover{
+    background-color: rgb(28, 77, 135);
+}
+.galerija h2{
+    font-size: 90px;
+}
+
+.footer{
+	background-color: #87CEEB;
+}
+
+.footer h3{
+	font-size: 50px;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.footer p{
+	color: white;
+	font-size: 40px;
+	text-shadow: 2px 2px black;
+}
